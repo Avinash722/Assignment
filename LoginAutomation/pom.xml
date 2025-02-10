@@ -92,11 +92,7 @@
       <version>${logback-classic.version}</version>
     </dependency>
 
-    <dependency>
-    	<groupId>com.Assign</groupId>
-    	<artifactId>Assessment</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    
     <dependency> 
 
 <groupId>org.seleniumhq.selenium</groupId> 
