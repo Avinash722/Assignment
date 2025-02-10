@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="LambaTestSuite" parallel="tests">
+
+  <test name="Test on Chrome">
+  <parameter name="Browser" value="chrome"/>
+	  <parameter name="Version" value="88"/>
+	  <parameter name="Platform" value="Windows 10"/>
+    <classes>
+      <class name="com.lamdatest.TestScenario1"/>
+      <class name="com.lamdatest.TestScenario2"/>
+      <class name="com.lamdatest.TestScenario3"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test on Edge">
+  <parameter name="Browser" value="edge"/>
+	  <parameter name="Version" value="87.0"/>
+	  <parameter name="Platform" value="macOS Sierra"/>
+    <classes>
+      <class name="com.lamdatest.TestScenario1"/>
+      <class name="com.lamdatest.TestScenario2"/>
+      <class name="com.lamdatest.TestScenario3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test on Firefox">
+  <parameter name="Browser" value="firefox"/>
+	  <parameter name="Version" value="82"/>
+	  <parameter name="Platform" value="Windows 7"/>
+    <classes>
+      <class name="com.lamdatest.TestScenario1"/>
+      <class name="com.lamdatest.TestScenario2"/>
+      <class name="com.lamdatest.TestScenario3"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test on IE">
+  <parameter name="Browser" value="Internet Explorer"/>
+	  <parameter name="Version" value="11"/>
+	  <parameter name="Platform" value="Windows 10"/>
+    <classes>
+      <class name="com.lamdatest.TestScenario1"/>
+      <class name="com.lamdatest.TestScenario2"/>
+      <class name="com.lamdatest.TestScenario3"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite>
